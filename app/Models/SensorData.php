@@ -9,5 +9,5 @@ class SensorData extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['luminosity', 'rain']; // Campos permitidos
+    protected $fillable = ['luminosity', 'rain', 'temperature', 'humidity']; // Campos permitidos
 }
